@@ -11,25 +11,36 @@
 <body>
     <header>
         <nav>
-        <h1>William Brian Swift</h1>
-        <div class="container1">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        	<a href="index.html"><h1>William Brian Swift</h1></a>
+        	<div class="container1">
+          	  	<a href="index.html">About</a>
+         	   	<a class="border-thingy" href="portfolio.html">Portfolio</a>
+            	<a class="border-thingy" href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
     <main>
 	    <article>
 	        <h2>Contact</h2>
 	        <hr>
-	        <section>
-		        <p>Name</p>
-		        <input type="text" id="display-name" name="ip-display"
-	                   pattern="[A-Za-z\s]+"
-	                   maxlength="5" minlength="2" value="Aa" required />
-	    	    <p>Email</p>
-	        	<p>Message</p>
-	       		<button>Submit</button>
+	        <section class="contact">
+	        	<p>
+			        <label>Name</label>
+			        <input type="text" placeholder="John Smith" id="display-name" name="ip-display"
+		                pattern="[A-Za-z\s]+" minlength="2" size="10" required />
+		        </p>
+		        <p>
+		    	    <label>Email</label>
+		    	    <input type="email" placeholder="example@gmail.com"
+			           	size="10" required />
+			    </p>
+		        <p>
+		        	<label>Message</label>
+		        	<input type="text" id="uname" name="uname" size="10" required minlength="4" />
+			    </p>
+		        <p>
+		        	<button>Submit</button>
+		        </p>
 	       	</section>
 	    </article>
     </main>
