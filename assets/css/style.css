@@ -34,7 +34,7 @@ nav {
 
 .container1 a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	text-decoration: none;
 	color: #777777;
 	padding: 7px;
@@ -89,9 +89,10 @@ hr {
 }
 
 .hero img {
-	width: 203px;
+	width: 215px;
 	padding: 0;
 	margin: 0;
+	margin-top: 22px;
 }
 
 .hero {
@@ -118,7 +119,7 @@ hr {
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	color: #777777;
 	line-height: 28px;
 	margin: 30px;
@@ -171,7 +172,7 @@ p {
 
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	color: #777777;
 }
 
@@ -209,7 +210,7 @@ footer {
 	text-align: center;
 }
 footer p {
-	font-size: 9px;
+	font-size: 10px;
 	color: lightgray;
 	padding-top: 35px;
 	margin: 0;
